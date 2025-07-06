@@ -57,9 +57,11 @@ Este é um problema de classificação supervisionada, pois o dataset possui ró
 
 **Estrutura do Repositório**
 
-├── README.md               <- Este arquivo
-├── mvp_colab_notebook.ipynb <- Notebook no Google Colab com todas as análises
-├── drug200.csv             <- Dataset utilizado (cópia local)
+-├── README.md               <- Este arquivo
+
+- ├── mvp_colab_notebook.ipynb <- Notebook no Google Colab com todas as análises
+
+-├── drug200.csv             <- Dataset utilizado (cópia local)
 
 **Execução**
 
