@@ -1,75 +1,82 @@
-# MVP2025‑1 – Sérgio Oliveira
+MVP - Análise e Pré-processamento de Dados
+Repositório desenvolvido como parte do projeto MVP da disciplina Análise Exploratória e Pré-processamento de Dados - Pós-Graduação em Engenharia de Software para Ciência de Dados - PUC-Rio.
 
-Este repositório contém o projeto desenvolvido por **Sérgio Oliveira** como parte do MVP 2025‑1, estruturado em um notebook Jupyter hospedado no Google Colab.
+Tema do Projeto
+Análise exploratória e pré-processamento de dados utilizando a base de medicamentos do Kaggle, com o objetivo de investigar padrões, correlações e possíveis insights relacionados à prescrição de remédios para diferentes faixas etárias, condições médicas e gêneros.
 
-## Objetivo do Projeto
+Dataset
+O dataset utilizado neste projeto está disponível no Kaggle:
 
-Aplicar técnicas de **aprendizado supervisionado** para classificar o tipo de medicamento mais adequado (Drug A/B/C/X/Y) para pacientes, com base em variáveis clínicas como:
+Nome: Drug Dataset
 
-- Idade
-- Sexo
-- Pressão arterial
-- Colesterol
-- Relação sódio/potássio
+Link: Kaggle - Drug Dataset
 
-## Organização dos Arquivos
+O arquivo foi adicionado neste repositório e também está referenciado diretamente pelo link raw do GitHub para garantir execução automática no Colab.
 
-- `notebook.ipynb`: o notebook principal com execução sequencial.
-- `README.md`: este arquivo, contendo instruções gerais.
+Tipo de Aprendizado
+Este é um problema de classificação supervisionada, pois o dataset possui rótulos (coluna Drug) que indicam a medicação prescrita com base em atributos como idade, pressão arterial e nível de colesterol.
 
-##  Conteúdo do Notebook
+Checklist Atendido
+ Definição clara do problema
 
-1. **Importação de bibliotecas**: `pandas`, `numpy`, `seaborn`, `scikit-learn`, etc.
-2. **Carregamento e inspeção dos dados**.
-3. **Análise exploratória (EDA)**: visualização e estatísticas descritivas.
-4. **Pré‑processamento**:
-   - Codificação de variáveis categóricas (One‑Hot).
-   - Escalonamento de features se necessário.
-5. **Treinamento de modelos**:
-   - **Decision Tree**
-   - **K‑Nearest Neighbors**
-   - **Support Vector Machine**
-   - **Random Forest**
-6. **Avaliação de performance**:
-   - Acurácia
-   - Matriz de confusão
-   - Relatório de classificação (precision, recall, f1‑score)
-7. **Comparação de modelos** e escolha do melhor.
+ Descrição e entendimento dos atributos do dataset
 
-## Como Executar
+ Análise estatística e visual exploratória
 
-Este projeto foi desenvolvido e testado no **Google Colab**, que já inclui as bibliotecas necessárias.
+ Identificação de valores ausentes e inconsistentes
 
-###  Executar no Colab
+ Aplicação de técnicas de pré-processamento como encoding e normalização
 
-Basta abrir o notebook no Colab e executar todas as células:
+ Utilização de gráficos explicativos e interpretação dos resultados
 
-[ Abrir no Colab](https://colab.research.google.com/drive/1daCT-Fuf-lAXuSyMOPNdSNu4y-eXJkce#scrollTo=1X5fkLXjeLd6)
+ Código limpo, comentado e com blocos de texto explicativos
 
-###  Executar localmente
+ Notebook executável do início ao fim sem erros
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/SergioOliveirasci/sergiooliveira_mvp2025-1/blob/main/S%C3%A9rgio_Oliveira_An%C3%A1lise_de_Dados_e_Boas_Pr%C3%A1ticas_(40530010055_20250_01).ipynb
+Etapas do Projeto
+1. Definição do Problema
+Investigar quais atributos influenciam na escolha de um determinado medicamento, com foco em possíveis padrões relacionados à faixa etária, sexo, pressão arterial, colesterol e nível de sódio e potássio no sangue.
 
-pip install -r requirements.txt
+2. Análise Exploratória
+Estatísticas descritivas (média, moda, desvio padrão, valores ausentes)
 
-pip install notebook
+Distribuição de atributos categóricos e numéricos
 
-jupyter notebook
+Visualização com gráficos de barra, histograma, boxplot e pairplot
 
-Abra o notebook .ipynb e execute.
+Análise de correlações
 
-Resultados Esperados
-Modelos comparados com acurácia e relatórios.
+3. Pré-processamento
+Conversão de variáveis categóricas com One-Hot Encoding
 
-Visualizações como gráficos de barras, distribuções, matrizes de confusão.
+Normalização de atributos numéricos
 
-Insights sobre quais features influenciam mais na classificação.
+Tratamento de possíveis valores inconsistentes
+
+Preparação dos dados para modelagem futura
+
+Estrutura do Repositório
+r
+Copiar
+Editar
+├── README.md               <- Este arquivo
+├── mvp_colab_notebook.ipynb <- Notebook no Google Colab com todas as análises
+├── drug200.csv             <- Dataset utilizado (cópia local)
+📎 Execução
+O notebook pode ser executado diretamente via Google Colab:
+
+ Acessar Notebook no Colab
+
+O dataset é carregado automaticamente a partir da versão raw hospedada neste repositório.
+
+Observações
+O projeto foi desenvolvido de acordo com os critérios estabelecidos no documento "Requisitos para o Desenvolvimento do MVP".
+
+Todas as decisões de modelagem e pré-processamento estão justificadas em blocos de texto no notebook.
+
+O projeto foca exclusivamente na análise e preparação dos dados; a modelagem preditiva poderá ser explorada em etapas futuras.
+
+Autor
+Sérgio Oliveira
 
 
-Licença
-Disponível sob a licença MIT. Consulte LICENSE para mais detalhes.
-
-Autor: Sérgio Oliveira
-Ano: 2025
