@@ -50,8 +50,7 @@ Basta abrir o notebook no Colab e executar todas as células:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SergioOliveirasci/sergiooliveira_mvp2025-1.git
-   cd sergiooliveira_mvp2025-1
+   git clone https://github.com/SergioOliveirasci/sergiooliveira_mvp2025-1/blob/main/S%C3%A9rgio_Oliveira_An%C3%A1lise_de_Dados_e_Boas_Pr%C3%A1ticas_(40530010055_20250_01).ipynb
 
 pip install -r requirements.txt
 
