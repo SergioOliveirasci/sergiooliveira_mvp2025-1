@@ -46,7 +46,7 @@ Basta abrir o notebook no Colab e executar todas as células:
 
 [ Abrir no Colab](https://colab.research.google.com/drive/1daCT-Fuf-lAXuSyMOPNdSNu4y-eXJkce)
 
-### 🔹 Executar localmente
+###  Executar localmente
 
 1. Clone o repositório:
    ```bash
