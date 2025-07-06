@@ -44,7 +44,7 @@ Este projeto foi desenvolvido e testado no **Google Colab**, que já inclui as b
 
 Basta abrir o notebook no Colab e executar todas as células:
 
-[ Abrir no Colab](https://colab.research.google.com/drive/1daCT-Fuf-lAXuSyMOPNdSNu4y-eXJkce)
+[ Abrir no Colab](https://colab.research.google.com/drive/1daCT-Fuf-lAXuSyMOPNdSNu4y-eXJkce#scrollTo=1X5fkLXjeLd6)
 
 ###  Executar localmente
 
